@@ -5,6 +5,10 @@
            fetch="https://github.com/RevengeOS"
            revision="r11.0" />
 
+  <remote  name="ros57"
+           fetch="https://github.com/lightnest57"
+           revision="r11.0" />
+
   <remote  name="devices"
            fetch="https://github.com/RevengeOS-Devices"
            revision="r11.0" />
@@ -89,7 +93,7 @@
   <project path="system/vold" name="android_system_vold" remote="ros" />
 
   <!-- RevengeOS vendor -->
-  <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros" />
+  <project path="vendor/revengeos" name="android_vendor_revengeos" remote="ros57" />
   <project path="vendor/revengeui" name="android_vendor_revengeui" remote="ros" />
   
   <!-- Qualcomm vendor repos -->
